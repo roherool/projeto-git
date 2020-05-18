@@ -17,19 +17,19 @@ git log
 ## Adicionando os arquivos ao COMMIT
 
 ### Adicionar arquivos no GIT
-git add . (o ponto define todos)
-git add + arquivo (Adiciona um arquivo específico)
+- git add . (o ponto define todos)
+- git add [nome-do-arquivo] (Adicionar um arquivo específico)
 
 ### Criar o ponto de restauração:
 git commit -m "chore: Commit inicial"
-a) chore = usado para o sistema geral
-b) fix = usado quando for para conserto de bug
-c) feature = usado quando for para funcionalidade nova
+- a) chore = Sugestão de uso para o sistema geral
+- b) fix = Sugestão de uso quando for para conserto de bugs
+- c) feature = Sugestão de uso quando for para funcionalidade nova
 
 ## Preparando os commits para envio
 
 ### Preparar o COMMIT para envio:
-git remote add origin + (destino do arquivo no git)
+git remote add origin [url-destino-github]
 
 ### Excluir um COMMIT para envio:
 git remote rm origin
@@ -37,8 +37,8 @@ git remote rm origin
 ## Publicando o commit no GIT
 
 ### Enviar o COMMIT por PUSH: 
-git push -u origin master (Usar o -u origin master no primeiro push)
-git push (Somente se já teve o primeiro push)
+- git push -u origin master (Usar o -u origin master no primeiro push)
+- git push (Somente se já teve o primeiro push)
 
 ## Trabalhando com BRANCH no GIT
 
